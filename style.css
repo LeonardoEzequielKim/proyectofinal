@@ -18,7 +18,7 @@ box-sizing: border-box;
     justify-content: center;
 }
 
-/* Menú con submenú*/
+
 nav ul {
     list-style: none;
     font-size:0; /* truco por el uso de inline-block*/
@@ -28,34 +28,16 @@ nav ul {
 nav li {
     display: inline-block;
     width: 25%;
-    position:relative;
+    position: relative;
     font-size: 0.9rem
  }
 
-nav ul ul{
-    position: absolute;
-    display: none;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5rem;
-    background-color: #f4f4f4;
- }
-
-nav ul ul li {
-    display: block;
-    
- }
-
-nav ul li:hover ul {
-    display:block;
- }
- 
 nav ul li{
     
     width: 5rem;    
 }
 
-/*menú con submenú fin*/
+
 
 .header__leyenda {
     background-color: black;
@@ -77,11 +59,8 @@ nav ul li{
     margin-bottom: 2rem;
 }
 
-.logo{ 
-    display: flex;
-}
 
-.logo img{
+.logo{    
 height: 2.5rem;
 margin-top: 0.625rem;
 margin-left: 0.625rem;
@@ -92,7 +71,8 @@ margin-left: 0.625rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2rem;
-
+    font-weight: bold;
+    color: #474b4e;
 }
 
 .quienesSomos{
@@ -110,6 +90,9 @@ margin-left: 0.625rem;
 .comentarios{
     margin-top: 1.25rem;
     margin-right: 4rem;
+    margin-left: 3.5rem;
+    
+   
 }
 
 .enviar{
@@ -166,16 +149,12 @@ object-fit: cover;
 }
 
 
-.subCategoria
-{
-    display: block;
-    text-align: left;
-    width: 40%;
-}
 
 .subCategoria p{
     margin-top: 1.875rem;
 }
+
+
 
 .alineaContenido
 {
@@ -189,6 +168,7 @@ object-fit: cover;
 footer{
     background-color: #f4f4f4;
     margin-top: 2rem;
+   
    
 }
 
@@ -217,7 +197,9 @@ h2{
 
 .ayuda__pregfrec{
     margin-top: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
+    text-decoration: underline;
 }
 .grid{
     display: grid;
@@ -232,7 +214,7 @@ h2{
 
 
 .producto--agrandar:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 1s;
 }
 
@@ -244,6 +226,8 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-weight: bold;
+    font-size: large;
 }
 
 .section-home{
@@ -260,3 +244,77 @@ h2{
     max-width: 1400px;
     margin: auto;
 }
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.margin-a{
+    margin-bottom: 8rem;
+}
+
+.item1{
+    margin-bottom: 1rem;
+}
+
+.faq__pregunta{
+    color: #474b4e;
+    font-weight: bold;
+}
+
+.section-tienda{
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    max-width: 1400px;
+}
+
+.texto__productos{
+    font-weight: bold;
+}
+
+.ayuda__comocomprar{
+    text-decoration: underline;
+}
+
+.contacto__datos{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.ayuda__formulario{
+    align-content: center;
+}
+
+.contacto__main{
+    max-width: 1400px;
+}
+
+.div__quienesSomos{
+    text-align: center;
+    max-width: 1400px;
+}
+
+
+
+strong{
+    color: #474b4e;
+}
+
+.login{
+    text-align: right;
+    margin-right: 1rem;
+    font-weight: bold;
+    
+}
+
+.prueba{
+    margin: 0%;
+    padding: 0%;
+}
+

@@ -13,13 +13,14 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link  rel="icon"   href="multimedia/favicon.svg" type="image/png" />
     <title>Contacto | Mayorista de ropa femenina</title>
 </head>
 
 <body>
     <header>
         
-            <div class="header__leyenda">Solamente por mayor</div>
+            <div class="header__leyenda">Solamente por mayor. Monto mínimo de $7000. Envíos a todo el país</div>
             <div class="logo"> <img src="multimedia/logo.png" alt="logo">
             </div>
             <nav class="header__navBar" >
@@ -33,15 +34,21 @@
 
         </nav>
         <h1 class="centrar contacto">Contacto, los mejores asesores te esperan</h1>
-        <div class="centrar">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0847885172975!2d-58.48027768417449!3d-34.62729756625419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc95e142529cb%3A0x7bb166467b55e928!2sElenita%20Indumentaria%20(Mayorista)!5e0!3m2!1ses-419!2sar!4v1618456381817!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <br>
+        
+        
     </header>
  
-    <main class="centrar">
-        <h2>Dejanos tus datos y te contactamos</h2>
+    <main class="container-fluid contacto__main">
 
+        <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0847885172975!2d-58.48027768417449!3d-34.62729756625419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc95e142529cb%3A0x7bb166467b55e928!2sElenita%20Indumentaria%20(Mayorista)!5e0!3m2!1ses-419!2sar!4v1618456381817!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ayuda__formulario" >
+        <h2 class="contacto__datos">Dejanos tus datos y te contactamos</h2>
+        <div class="centrar">
         <form action="">
             <label for="nombre">Nombre:</label>
             <input type="text" name="nombre">
@@ -66,8 +73,10 @@
             </fieldset>
 
             <div class="comentarios">
-            <label for="comentarios">Comentarios</label>
-            <textarea name="comentarios" id="comment" cols="30" rows="10"></textarea>
+                
+            <label for="comentarios"></label>
+                
+            <textarea name="comentarios" id="comment" cols="55" rows="10">Dejanos tu consulta...</textarea>
             </div>
         
 
@@ -79,7 +88,10 @@
         </div>
 
     </form>   
-    <div class="main__whatsapp--fixed"><img src="multimedia/whatsapp.png" alt="whatsapp"></div>
+</div>
+</div>
+</div>
+    <div class="main__whatsapp--fixed"> <a href="https://api.whatsapp.com/send?phone=541126354432&text=Hola!%20Tengo%20una%20consulta%20%3A)"> <img src="multimedia/whatsapp.png" alt="banner3"></a></div>
 
     </main>    
         
@@ -87,10 +99,11 @@
     
     <footer class="centrar">
         <div>
-            <p>Concordia 462, Flores, Capital Federal.</p>
-            <p>Horario de 8:00 a 17:00</p>
-            <p>Todos los derechos resevados.</p>
-        </div>
+            <p class="prueba"><strong>Dirección:</strong> Concordia 462, Floresta, CABA, Argentina.</p>
+            <p class="prueba"><strong>Horario:</strong> de 8:00 a 17:00</p>
+            <p class="prueba"><strong>Teléfono:</strong> (011) 4534-4555</p>
+            <p class="prueba">Todos los derechos resevados.</p>
+          </div>
     </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN de Bootstrap del JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
